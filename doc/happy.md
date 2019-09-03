@@ -589,7 +589,7 @@ Most other command line arguments and outputs will work as before.
 
 # Full List of Output Columns
 
-Happy outputs a set of stratification columns, followed by metrics columns.
+Hap.py outputs a set of stratification columns, followed by metrics columns.
 Stratification columns may contain the placeholder "*" value, which indicates
 that counts in this row are aggregated over all possible values of the column.
 In case of a subtype, this means that the counts have been summed across all
@@ -599,7 +599,7 @@ rather than only ones below a QQ threshold.
 | Stratification Column | Description                                                                        |
 |:----------------------|------------------------------------------------------------------------------------|
 | Type                  | Variant type (SNP / INDEL)                                                         |
-| Subtype               | Variant Subtype (ti/tv/indel length, see above                                     |
+| Subtype               | Variant Subtype (ti/tv/indel length, see above)                                    |
 | Subset                | Subset of the genome/stratification region                                         |
 | Filter                | Variant filters: PASS, SEL, ALL, or a particular filter from the query VCF         |
 | Genotype              | Genotype of benchmarked variants (het / homalt / hetalt)                           |
